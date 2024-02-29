@@ -51,6 +51,9 @@
     width: 46px;
     height: 46px;
 }
+.text-secondary-color{
+    color:#0000
+}
 
 .btn-lg-square {
     width: 58px;
@@ -440,6 +443,7 @@
     background: var(--bs-primary);
     border-radius: 10px;
 }
+
 
 .project-item:hover .project-content {
     opacity: 1;
