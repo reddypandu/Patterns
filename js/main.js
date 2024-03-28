@@ -85,6 +85,31 @@
             }
         }
     });
+    $(".clients-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        center: true,
+        dots: true,
+        loop: true,
+        margin: 0,
+        nav : true,
+        navText: false,
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:4
+            }
+        }
+    });
 
 
      // Fact Counter
