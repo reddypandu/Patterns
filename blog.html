@@ -56,30 +56,43 @@
         <!-- Topbar End -->
 
         <!-- Navbar Start -->
-        <div class="container-fluid bg-primary">
+        <div class="container-fluid bg-primary sticky">
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1>
+                        <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
+                        <img src="./img/logo.webp" alt="" style="width: 200px;">
                     </a>
-                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="index.html" class="nav-item nav-link  ">Home</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="project.html" class="nav-item nav-link">Projects</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                            <div class="nav-item dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown active ">Services</a>
                                 <div class="dropdown-menu rounded">
-                                    <a href="blog.html" class="dropdown-item active">Our Blog</a>
-                                    <a href="team.html" class="dropdown-item">Our Team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                    <a href="blog.html" class="dropdown-item" style="background-color:#7ED958;">
+                                        <marquee direction="right">Digital Marketing</marquee>
+                                    </a>
+                                    <a href="team.html" class="dropdown-item" style="background-color:#7ED958;">Web
+                                        Development </a>
+                                    <a href="" class="dropdown-item" style="background-color:#7ED958;">Search Engine
+                                        Optimization (SEO)</a>
+                                    <a href="404.html" class="dropdown-item" style="background-color:#7ED958;">Social Media
+                                        Marketing</a>
+                                    <a href="404.html" class="dropdown-item" style="background-color:#7ED958;">
+                                        <marquee direction="right">Graphic Designing</marquee>
+                                    </a>
+    
                                 </div>
                             </div>
+                            <a href="project.html" class="nav-item nav-link">Projects</a>
+                            <a href="blog.html"class="nav-item nav-link active">Blog</a>
+                            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                     </div>
@@ -94,7 +107,8 @@
                         </div>
                         <div class="d-flex flex-column pe-4 border-end">
                             <span class="text-white-50">Have any questions?</span>
-                            <span class="text-secondary">Call: + 0123 456 7890</span>
+                            <span class="text-secondary"> <a href="tel:+918500693113" style="color: #ffff;"> Call:
+                                    +91-8500693113</a></span>
                         </div>
                         <div class="d-flex align-items-center justify-content-center ms-4 ">
                             <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
@@ -123,138 +137,251 @@
 
 
         <!-- Fact Start -->
-        <div class="container-fluid bg-secondary py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
-                        <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">99</h1>
-                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
-                        <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">25</h1>
-                            <h5 class="text-white mt-1">Thousands of successful business</h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
-                        <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">120</h1>
-                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
-                        <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">5</h1>
-                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <!-- Fact End -->
 
 
         <!-- Blog Start -->
-        <div class="container-fluid blog py-5 my-5">
-            <div class="container py-5">
+        <div class="container-fluid blog py-5 mb-5" style="background-color: #000000;">
+            <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Blog</h5>
-                    <h1>Latest Blog & News</h1>
+                    <h5 class="text-primary" style="font-size: 50px;">Our Blog</h5>
+                    <!-- <h1 style="font-size: 30px;" style="color: #7ED958;">Latest Blog & News</h1> -->
                 </div>
                 <div class="row g-5 justify-content-center">
                     <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="blog-item position-relative bg-light rounded">
-                            <img src="img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span>
-                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                            <img src="img/webdesign000.png" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px;">Web Design</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3"
+                                style="margin-top: -75px;">
+                                <!-- <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
                                     <a href="" class="btn text-white">Read More</a>
-                                </div>
-                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
-                                    <div class="blog-icon-1">
+                                </div> -->
+                                <!-- <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill "> -->
+                                <!-- <div class="blog-icon-1">
                                         <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
-                                    </div>
-                                    <div class="blog-icon-2">
-                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
-                                    </div>
+                                    </div> -->
+                                <div class="blog-icon-2">
+                                    <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
                                 </div>
+    
                             </div>
                             <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
-                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Daniel Martin</h5>
-                                <span class="text-secondary">24 March 2023</span>
-                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                                    alt="">
+                                <h5 class="">By Pandu Reddy</h5>
+                                <span class="text-secondary">10 Jan 2024</span>
+                                <p class="py-2">
+                                    Web design encompasses the process of creating visually appealing and functional
+                                    websites that effectively communicate information and engage users.</p>
                             </div>
-                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
-                            </div>
+                            <!-- <div
+                                class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324
+                                        Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>9
+                                        Comments</small></a>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="blog-item position-relative bg-light rounded">
-                            <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span>
-                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                            <img src="img/webdevelop.png" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px;">Development</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3"
+                                style="margin-top: -75px;">
+                                <!-- <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
                                     <a href="" class="btn text-white ">Read More</a>
                                 </div>
                                 <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
                                     <div class="blog-icon-1">
                                         <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
-                                    </div>
-                                    <div class="blog-icon-2">
-                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
-                                    </div>
+                                    </div> -->
+                                <div class="blog-icon-2">
+                                    <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
                                 </div>
+    
                             </div>
                             <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
-                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Daniel Martin</h5>
-                                <span class="text-secondary">23 April 2023</span>
-                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                                    alt="">
+                                <h5 class="">By Suvarna</h5>
+                                <span class="text-secondary">27 Jan 2024</span>
+                                <p class="py-2">
+                                    Development involves the coding and programming aspects of creating software, websites,
+                                    or applications, focusing on turning design concepts into interactive products.</p>
                             </div>
-                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
-                            </div>
+                            <!-- <div
+                                class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5422
+                                        Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>4
+                                        Comments</small></a>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="blog-item position-relative bg-light rounded">
-                            <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Mobile App</span>
-                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                            <img src="img/mobileapp000.png" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px;">Mobile App</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3"
+                                style="margin-top: -75px;">
+                                <!-- <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
                                     <a href="" class="btn text-white ">Read More</a>
                                 </div>
                                 <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
                                     <div class="blog-icon-1">
                                         <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
-                                    </div>
-                                    <div class="blog-icon-2">
-                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
-                                    </div>
+                                    </div> -->
+                                <div class="blog-icon-2">
+                                    <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
                                 </div>
+    
                             </div>
                             <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
-                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Daniel Martin</h5>
-                                <span class="text-secondary">30 jan 2023</span>
-                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                                    alt="">
+                                <h5 class="">By Anil</h5>
+                                <span class="text-secondary">08 Feb 2024</span>
+                                <p class="py-2">Mobile app development involves creating software applications specifically
+                                    designed to run on mobile devices such as smartphones and tablets, catering to diverse
+                                    user needs .</p>
                             </div>
-                            <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            <!-- <div
+                                class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5429
+                                        Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>6
+                                        Comments</small></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/Seo.png" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px;">Digital Markting(SEO)</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3"
+                                style="margin-top: -75px;">
+                                <!-- <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div> -->
+                                <div class="blog-icon-2">
+                                    <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                </div>
+    
                             </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                                    alt="">
+                                <h5 class="">By Gayathri</h5>
+                                <span class="text-secondary">18 feb 2024</span>
+                                <p class="py-2">
+                                    SEO (Search Engine Optimization) is the practice of optimizing web content to improve
+                                    its visibility and ranking in search engine results pages (SERPs)</p>
+                            </div>
+                            <!-- <div
+                                class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5422
+                                        Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>4
+                                        Comments</small></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/smmm.png" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px;">Digital Marketing(SMM)</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3"
+                                style="margin-top: -75px;">
+                                <!-- <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div> -->
+                                <div class="blog-icon-2">
+                                    <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                </div>
+    
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                                    alt="">
+                                <h5 class="">By Harshita</h5>
+                                <span class="text-secondary">26 feb 2024</span>
+                                <p class="py-2">
+                                    SMM (Social Media Marketing) is the use of social media platforms to connect with your
+                                    audience to build your brand, increase sales, and drive website traffic. </p>
+                            </div>
+                            <!-- <div
+                                class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5422
+                                        Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>4
+                                        Comments</small></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/google00.png" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
+                                style="top: -28px; right: 20px;">Google Adds</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3"
+                                style="margin-top: -75px;">
+                                <!-- <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div> -->
+                                <div class="blog-icon-2">
+                                    <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                    <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                </div>
+    
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3"
+                                    alt="">
+                                <h5 class="">By Srinivas Rao</h5>
+                                <span class="text-secondary">13 mar 2024</span>
+                                <p class="py-2">
+                                    Google Ads is Google's online advertising platform, enabling businesses to create and
+                                    display ads across Google's network. Through targeted keywords and audience demographics
+                                </p>
+                            </div>
+                            <!-- <div
+                                class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5422
+                                        Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>4
+                                        Comments</small></a>
+                            </div> -->
                         </div>
                     </div>
                 </div>

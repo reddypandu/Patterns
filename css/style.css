@@ -657,10 +657,12 @@
 
 .contact-map {
     background: #26d48c;
+    border-radius: 20px;
 }
 
 .contact-form {
     background: #26d48c;
+    border-radius: 20px;
 }
 
 /*** Contact End ***/
@@ -671,11 +673,11 @@
     background-color: #000000;
    
    
-        --mask:
+        /* --mask:
           radial-gradient(38.59px at 50% 53px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 100%,
           radial-gradient(38.59px at 50% -33px,#0000 99%,#000 101%) 50% 20px/80px 100% repeat-x;
         -webkit-mask: var(--mask);
-                mask: var(--mask);
+                mask: var(--mask); */
   
    
 }
@@ -717,8 +719,22 @@ html,body{
     border-radius: 5px;
     cursor: pointer;
   }
+  .img-fluid-setup {
+    max-width: 300%;
+    height: auto;
+    margin-left: 275px; 
+}
+.w-25{
+    margin-left: 120px;
+}
+.text-white-set{
+    text-align: center;
+    font-size: 25px;
+}
+.rounded{
+    st
+}
+
+
   
-  /* .custom-button:hover {
-    background-color: #0056b3;
-  } */
 
