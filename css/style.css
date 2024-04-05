@@ -54,7 +54,9 @@
 .text-secondary-color{
     color:#0000
 }
-
+.text-secondarrr{
+    margin-top: 330px;
+}
 .btn-lg-square {
     width: 58px;
     height: 58px;
@@ -440,15 +442,40 @@
 .project-content a {
     display: inline-block;
     padding: 20px 25px;
-    background: var(--bs-primary);
+
     border-radius: 10px;
 }
+.box{
+    margin-left: 150px;
+    margin-top: -70px;
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ .hidden-button {
 
+    display: none;
+    padding:  10px 20px;
+    border: none;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.box:hover .hidden-button {
+    display: block;
+    
+}
 
-.project-item:hover .project-content {
+/* .project-item:hover .project-content {
     opacity: 1;
     transition: .5s;
-}
+} */
 
 .project-item:hover .project-img::before,
 .project-item:hover .project-img::after {
