@@ -54,7 +54,10 @@
 .text-secondary-color{
     color:#0000
 }
-
+.text-secondarrr{
+    margin-top: 330px;
+    
+}
 .btn-lg-square {
     width: 58px;
     height: 58px;
@@ -440,10 +443,35 @@
 .project-content a {
     display: inline-block;
     padding: 20px 25px;
-    background: var(--bs-primary);
+
     border-radius: 10px;
 }
+/* .box{
+    margin-left: 150px;
+    margin-top: -70px;
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ .hidden-button {
 
+    display: none;
+    padding:  10px 20px;
+    border: none;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.box:hover .hidden-button {
+    display: block;
+    
+} */
 
 .project-item:hover .project-content {
     opacity: 1;
@@ -731,12 +759,33 @@ html,body{
     text-align: center;
     font-size: 25px;
 }
+<<<<<<< HEAD
 .rounded{
     st
 }
 .picadjust{
     height:100%;
     width:100%;
+}
+=======
+.box{
+
+>>>>>>> 90f393cd3caa29db13431398ef94d1377509e368
+
+
+}
+.box .button{
+     margin-right:120px;
+     margin-top: 250px;
+     background-color: #7ED958;
+     align-items: center;
+     font-size: 15px;
+     border-radius: 30px;
+
+
+
+    
+
 }
 
   
