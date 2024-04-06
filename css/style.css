@@ -734,7 +734,10 @@ html,body{
 .rounded{
     st
 }
-
+.picadjust{
+    height:100%;
+    width:100%;
+}
 
   
 
