@@ -18,8 +18,8 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #1842b6;
-    --bs-secondary: #26d48c;
+    
+
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -234,12 +234,12 @@ sup {
 }
 
 a {
-    color: #1842b6;
+    color:  #000103;
     text-decoration: none
 }
 
 a:hover {
-    color: #133592
+    color:  #000103
 }
 
 a:not([href]):not([class]),
@@ -693,7 +693,7 @@ progress {
     .container-md,
     .container-sm,
     .container {
-        max-width: 1320px
+        
     }
 }
 

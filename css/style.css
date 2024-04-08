@@ -37,9 +37,10 @@
     transition: .5s;
 }
 
-.btn-square {
-    width: 38px;
-    height: 38px;
+.btn-square  img{
+    max-width: 100%;
+    border-radius: 20px;
+    
 }
 
 .btn-sm-square {
@@ -748,9 +749,9 @@ html,body{
     cursor: pointer;
   }
   .img-fluid-setup {
-    max-width: 300%;
+   
     height: auto;
-    margin-left: 275px; 
+   
 }
 .w-25{
     margin-left: 120px;
@@ -781,12 +782,33 @@ html,body{
      align-items: center;
      font-size: 15px;
      border-radius: 30px;
-
-
-
-    
-
 }
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: inline-block;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.rating label:before {
+    content: '\2605';
+    font-size: 2em;
+    color: #ccc;
+}
+
+.rating input:checked ~ label:before {
+    color: #ffcc00;
+}
+
 
   
 
