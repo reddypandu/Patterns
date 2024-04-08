@@ -786,21 +786,28 @@ html,body{
 .rating {
     unicode-bidi: bidi-override;
     direction: rtl;
-    text-align: left;
-  }
-  .rating > span {
+    text-align: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
     display: inline-block;
-    position: relative;
-    width: 1.1em;
-    
-  }
-  .rating > span:hover:before,
-  .rating > span:hover ~ span:before {
-     content: "\2605";
-     position: absolute;
-    
-    color: gold;
-  }
+    cursor: pointer;
+    color: #aaa;
+}
+
+.rating label:before {
+    content: '\2605';
+    font-size: 2em;
+    color: #ccc;
+}
+
+.rating input:checked ~ label:before {
+    color: #ffcc00;
+}
 
 
   
