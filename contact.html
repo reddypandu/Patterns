@@ -168,19 +168,19 @@
                 <div class="row">
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value success" >500+</h1>
+                            <h1 class="me-3 text-primary counter-value success" >500</h1>
                             <h5 class="text-white mt-1">Success in getting happy customer</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value success">5+</h1>
+                            <h1 class="me-3 text-primary counter-value success">5 </h1>
                             <h5 class="text-white mt-1">Glorious Experience</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value success">1k+</h1>
+                            <h1 class="me-3 text-primary counter-value success">1k </h1>
                             <h5 class="text-white mt-1">Digital Transformation </h5>
                         </div>
                     </div>
@@ -202,9 +202,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary" style="font-size: 50px;">Get In Touch</h5>
                     <h1 class="mb-3" style="font: size 30px;">Contact for any query</h1>
-                    <!-- <p class="mb-2">The contact form is currently inactive. Get a functional and working contact form with
-                        Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a
-                            href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+            
                 </div>
                 <div class="contact-detail position-relative p-5">
                     <div class="row g-5 mb-5 justify-content-center">
@@ -256,24 +254,26 @@
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
-                            <div class="p-5 rounded contact-form">
-                                <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Your Name">
+                            <form action="http://127.0.0.1:5503/send-email" method="POST">
+                                <div class="p-5 rounded contact-form">
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" name="name" placeholder="Your Name">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="email" class="form-control border-0 py-3" name="email" placeholder="Your Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" name="project" placeholder="Project">
+                                    </div>
+                                    <div class="mb-4">
+                                        <textarea class="w-100 form-control border-0 py-3" name="message" rows="6" cols="10" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="text-start">
+                                        <button class="btn bg-primary text-white py-3 px-5" type="submit">Send Message</button>
+                                    </div>
                                 </div>
-                                <div class="mb-4">
-                                    <input type="email" class="form-control border-0 py-3" placeholder="Your Email">
-                                </div>
-                                <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Project">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10"
-                                        placeholder="Message"></textarea>
-                                </div>
-                                <div class="text-start">
-                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Send Message</button>
-                                </div>
-                            </div>
+                            </form>
+                            
                         </div>
                     </div>
                 </div>
