@@ -37,9 +37,10 @@
     transition: .5s;
 }
 
-.btn-square {
-    width: 38px;
-    height: 38px;
+.btn-square  img{
+    max-width: 100%;
+    border-radius: 20px;
+    
 }
 
 .btn-sm-square {
@@ -748,9 +749,9 @@ html,body{
     cursor: pointer;
   }
   .img-fluid-setup {
-    max-width: 300%;
+   
     height: auto;
-    margin-left: 275px; 
+   
 }
 .w-25{
     margin-left: 120px;
@@ -771,12 +772,26 @@ html,body{
      align-items: center;
      font-size: 15px;
      border-radius: 30px;
-
-
-
-    
-
 }
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+    
+    color: gold;
+  }
+
 
   
 
