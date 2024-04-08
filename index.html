@@ -44,14 +44,13 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid bg-primary sticky">
-        <div class="container">
+        <div class="container" style="max-width: 100%;">
             <nav class="navbar navbar-dark navbar-expand-lg py-0">
                 <a href="index.html" class="navbar-brand">
                     <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
                     <!-- <img src="./img/logo.webp" alt="" style="width: 200px;"> -->
-                    <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">The Patterns Company </br>
-                        ---------------------------We Create Future Websites
-                    </p>
+                    <h1 class="py-4 logo">The Patterns Company 
+                    </h1>
                     
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
@@ -59,7 +58,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                    <div class="navbar-nav ms-auto  p-0">
                         <a href="index.html" class="nav-item nav-link active ">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
@@ -121,6 +120,17 @@
         .whatsapp:hover i {
             color: #7ED958;
             background-color: black;
+        }
+        h1.logo{
+            color:transparent;
+            font-size: 35px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            -webkit-text-stroke-width: 2.5px;
+            text-decoration: underline;
+            background: linear-gradient(45deg, white 40%, rgba(12,208,25,1) 59%);
+            -webkit-background-clip: text;
         }
     </style>
     <!-- Carousel Start -->
@@ -184,38 +194,6 @@ position: relative;
 }
 </style>
 
-    <!-- Fact Start -->
-    <!-- <div class="container-fluid bg-secondary py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
-                    <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">500</h1>
-                        <h5 class="text-white mt-1">Success in getting happy customer</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
-                    <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">1000</h1>
-                        <h5 class="text-white mt-1">Digital Transformations</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
-                    <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">27</h1>
-                        <h5 class="text-white mt-1">Glorious Expereince</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
-                    <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">50</h1>
-                        <h5 class="text-white mt-1">Our Team</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Fact End -->
     <div class="container-fluid px-5 py-5 text-center" style="background-color: #000;">
     <h2 style=" color:burlywood;" class="py-3">Our Promise</h2>
         <p style="max-width: 50%;margin: auto;text-align: center; color: #ffff;">Our patterns company specializes in delivering top-tier website development, crafting seamless online experiences that captivate audiences. Paired with our expertise in digital marketing, we ensure your brand's online presence thrives, driving growth and maximizing visibility.
@@ -924,7 +902,7 @@ position: relative;
     </div> -->
     <!-- Project End -->
 
-    <div class="faq">
+    <div class="faq py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
@@ -934,12 +912,12 @@ position: relative;
             <div id="faq-wrapper">
                 <div class="accordion" id="faq">
                     <div class="card is-active">
-                        <div class="card-header" id="faqhead1">
+                        <div class="card-header" id="faqhead1"  aria-expanded="true">
                             <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
-                                aria-expanded="true" aria-controls="faq1">What are the industries that INT. mainly works
+                                aria-controls="faq1">What are the industries that INT. mainly works
                                 with?</a>
                         </div>
-                        <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                        <div id="faq1" class="collapse" aria-labelledby="faqhead1" data-parent="#faq">
                             <div class="card-body">
                                 <p>INT. mainly works with the real estate, ed-tech, food & beverages, hospitality and
                                     recreation industries. However, we don’t limit ourselves to these sectors alone.
@@ -987,9 +965,9 @@ position: relative;
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" id="faqhead4">
+                        <div class="card-header" id="faqhead4" aria-expanded="true">
                             <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq4"
-                                aria-expanded="true" aria-controls="faq4">Does INT. provide any project timelines?</a>
+                                 aria-controls="faq4">Does INT. provide any project timelines?</a>
                         </div>
                         <div id="faq4" class="collapse" aria-labelledby="faqhead4" data-parent="#faq">
                             <div class="card-body">
@@ -1006,6 +984,37 @@ position: relative;
             </div>
         </div>
     </div>
+
+
+    <script>
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all card headers
+    var cardHeaders = document.querySelectorAll('.card-header');
+
+    // Loop through each card header
+    cardHeaders.forEach(function(header) {
+        // Add click event listener to each header
+        header.addEventListener('click', function(event) {
+            // Get the corresponding card body
+            var cardBody = header.nextElementSibling;
+
+            // Toggle the visibility of the card body
+            cardBody.classList.toggle('show');
+
+            // Get the current aria-expanded state of the header
+            var isExpanded = header.getAttribute('aria-expanded') === 'true' || false;
+
+            // Toggle the aria-expanded attribute
+            header.setAttribute('aria-expanded', !isExpanded);
+        });
+    });
+});
+
+
+      </script>
+
+
     <!-- Blog Start -->
     <div class="container-fluid blog py-5 mb-5" style="background-color: #000000;">
         <div class="container">
