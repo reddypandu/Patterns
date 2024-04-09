@@ -7226,6 +7226,11 @@ fieldset:disabled .btn {
 
 .d-flex {
     display: flex !important
+    
+}
+.d-flex .btn-light{
+    font-size: 25px;
+
 }
 
 .d-inline-flex {

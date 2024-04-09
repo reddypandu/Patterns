@@ -5,6 +5,7 @@
     --primary:#7ED958;
     --secondary:#181b18;
     --white:#ffff;
+    
 }
 
 
@@ -42,6 +43,14 @@
     border-radius: 20px;
     
 }
+.btn-circle img{
+    width:140px;
+    height:140px;
+    margin-left: 45px;
+}
+.about{
+    color:#ffff;
+}
 
 .btn-sm-square {
     width: 32px;
@@ -62,6 +71,9 @@
 .btn-lg-square {
     width: 58px;
     height: 58px;
+}
+.btn-circle{
+    
 }
 
 .btn-square,
@@ -778,4 +790,8 @@ html,body{
     margin-top: 35px;
     margin-bottom: 25px;
 
+}
+.patterns{
+
+margin-left: 120px;
 }
