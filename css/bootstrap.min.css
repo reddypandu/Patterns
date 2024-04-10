@@ -2243,6 +2243,7 @@ progress {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border: 1px solid grey;
     border-radius: 8px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }

@@ -150,7 +150,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-secondary) !important;
+    color:burlywood;
 }
 
 .navbar .dropdown-toggle::after {
@@ -684,7 +684,7 @@
 
 /*** Contact Start ***/
 .contact-detail::before {
-    position: absolute;
+    /* position: absolute;
     content: "";
     height: 50%;
     width: 100%;
@@ -693,7 +693,36 @@
     background: linear-gradient(rgb(210, 243, 235, 1), rgba(230, 250, 245, .3)), url(../img/background.jpg) center center no-repeat;
     background-size: cover;
     border-radius: 10px;
-    z-index: -1;
+    z-index: -1; */
+}
+.whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    z-index: 999;
+    
+}
+.whatsapp i{
+    font-size: 2.5rem;
+    padding: 10px;
+    color: #000;
+    background-color: #7ED958;
+border-radius: 50%;
+}
+.whatsapp:hover i{
+color: #7ED958;
+background-color: black;
+}
+h1.logo{
+color:transparent;
+font-size: 30px;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 2px;
+-webkit-text-stroke-width: 2.5px;
+text-decoration: underline;
+background: linear-gradient(45deg, white 40%, rgba(12,208,25,1) 59%);
+-webkit-background-clip: text;
 }
 
 .contact-map {
@@ -795,3 +824,4 @@ html,body{
 
 margin-left: 120px;
 }
+
