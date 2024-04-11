@@ -724,7 +724,12 @@ text-decoration: underline;
 background: linear-gradient(45deg, white 40%, rgba(12,208,25,1) 59%);
 -webkit-background-clip: text;
 }
-
+@media(max-width:992px){
+    h1.logo
+    {
+        font-size: 20px !important;
+    }
+}
 .contact-map {
     background: #26d48c;
     border-radius: 20px;
